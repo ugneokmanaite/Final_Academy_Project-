@@ -21,17 +21,33 @@
 ## Step 2: Clone repo 
 Clone the repo and save folders with the required code 
 
-## Step 3: Install plugins/packages 
+## Step 3: Add new interpreter to the current project 
+
+![image](https://github.com/ugneokmanaite/Final_Academy_Project-/blob/master/images/10.JPG)
+
+for more info: https://www.jetbrains.com/help/pycharm/configuring-python-interpreter.html
+
+## Step 4: Make sure you are in the root directory 
+
+- Right click on the project folder in pycharm 
+- Select `Open in terminal`
+
+## Step 5: Install plugins/packages 
 - Should automatically be picked up by Pycharm when opening the following file : 
 ```
 main.py
 ```
 
-## Step 4: Set environment
+## Step 6: pip install . 
+
+- run the command `pip install .` in the terminal
+
+## Step 7: Set environment
 - Open `config.ini` file and set test environment to `live`
 - Click on terminal and run `python -m pytest tests/`
 
-## Step 5: If tests are stil failing check the following things:
+
+## Step 8: If tests are stil failing check the following things:
 
 ### Error when attempting to run pytest
 ![image](https://github.com/ugneokmanaite/Final_Academy_Project-/blob/master/images/9.JPG)
